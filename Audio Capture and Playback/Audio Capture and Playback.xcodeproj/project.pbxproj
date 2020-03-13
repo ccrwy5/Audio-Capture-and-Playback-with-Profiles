@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDCAAE824183056001E112C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCAAE724183056001E112C /* AppDelegate.swift */; };
+		CEDCAAEA24183056001E112C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCAAE924183056001E112C /* SceneDelegate.swift */; };
+		CEDCAAEF24183056001E112C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDCAAED24183056001E112C /* Main.storyboard */; };
+		CEDCAAF124183058001E112C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCAAF024183058001E112C /* Assets.xcassets */; };
+		CEDCAAF424183058001E112C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDCAAF224183058001E112C /* LaunchScreen.storyboard */; };
+		CEDCAAFC241830D3001E112C /* AudioCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCAAFB241830D3001E112C /* AudioCaptureViewController.swift */; };
+		CEDCAAFF24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDCAAFD24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDCAAE424183056001E112C /* Audio Capture and Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Capture and Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCAAE724183056001E112C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDCAAE924183056001E112C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDCAAEE24183056001E112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDCAAF024183058001E112C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDCAAF324183058001E112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDCAAF524183058001E112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDCAAFB241830D3001E112C /* AudioCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureViewController.swift; sourceTree = "<group>"; };
+		CEDCAAFE24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Audio_Capture_and_Playback.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDCAAE124183056001E112C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDCAADB24183056001E112C = {
+			isa = PBXGroup;
+			children = (
+				CEDCAAE624183056001E112C /* Audio Capture and Playback */,
+				CEDCAAE524183056001E112C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDCAAE524183056001E112C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCAAE424183056001E112C /* Audio Capture and Playback.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDCAAE624183056001E112C /* Audio Capture and Playback */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCAAE724183056001E112C /* AppDelegate.swift */,
+				CEDCAAE924183056001E112C /* SceneDelegate.swift */,
+				CEDCAAFB241830D3001E112C /* AudioCaptureViewController.swift */,
+				CEDCAAED24183056001E112C /* Main.storyboard */,
+				CEDCAAF024183058001E112C /* Assets.xcassets */,
+				CEDCAAF224183058001E112C /* LaunchScreen.storyboard */,
+				CEDCAAF524183058001E112C /* Info.plist */,
+				CEDCAAFD24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodeld */,
+			);
+			path = "Audio Capture and Playback";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDCAAE324183056001E112C /* Audio Capture and Playback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCAAF824183058001E112C /* Build configuration list for PBXNativeTarget "Audio Capture and Playback" */;
+			buildPhases = (
+				CEDCAAE024183056001E112C /* Sources */,
+				CEDCAAE124183056001E112C /* Frameworks */,
+				CEDCAAE224183056001E112C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Capture and Playback";
+			productName = "Audio Capture and Playback";
+			productReference = CEDCAAE424183056001E112C /* Audio Capture and Playback.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDCAADC24183056001E112C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chris Rehagen";
+				TargetAttributes = {
+					CEDCAAE324183056001E112C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEDCAADF24183056001E112C /* Build configuration list for PBXProject "Audio Capture and Playback" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDCAADB24183056001E112C;
+			productRefGroup = CEDCAAE524183056001E112C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDCAAE324183056001E112C /* Audio Capture and Playback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDCAAE224183056001E112C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCAAF424183058001E112C /* LaunchScreen.storyboard in Resources */,
+				CEDCAAF124183058001E112C /* Assets.xcassets in Resources */,
+				CEDCAAEF24183056001E112C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDCAAE024183056001E112C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCAAFF24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodeld in Sources */,
+				CEDCAAE824183056001E112C /* AppDelegate.swift in Sources */,
+				CEDCAAFC241830D3001E112C /* AudioCaptureViewController.swift in Sources */,
+				CEDCAAEA24183056001E112C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDCAAED24183056001E112C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDCAAEE24183056001E112C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDCAAF224183058001E112C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDCAAF324183058001E112C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDCAAF624183058001E112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDCAAF724183058001E112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDCAAF924183058001E112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7XRP8G6Q3;
+				INFOPLIST_FILE = "Audio Capture and Playback/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisrehagen.Audio-Capture-and-Playback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDCAAFA24183058001E112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7XRP8G6Q3;
+				INFOPLIST_FILE = "Audio Capture and Playback/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisrehagen.Audio-Capture-and-Playback";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDCAADF24183056001E112C /* Build configuration list for PBXProject "Audio Capture and Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCAAF624183058001E112C /* Debug */,
+				CEDCAAF724183058001E112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCAAF824183058001E112C /* Build configuration list for PBXNativeTarget "Audio Capture and Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCAAF924183058001E112C /* Debug */,
+				CEDCAAFA24183058001E112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEDCAAFD24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEDCAAFE24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodel */,
+			);
+			currentVersion = CEDCAAFE24183B07001E112C /* Audio_Capture_and_Playback.xcdatamodel */;
+			path = Audio_Capture_and_Playback.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEDCAADC24183056001E112C /* Project object */;
+}

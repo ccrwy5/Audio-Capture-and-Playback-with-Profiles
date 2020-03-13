@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Audio Capture View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AudioCaptureViewController" customModule="Audio_Capture_and_Playback" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWC-ui-6lv">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tTN-Z2-m7x"/>
+                                    <barButtonItem title="stopButton" image="stop" id="S0y-gs-kis">
+                                        <connections>
+                                            <action selector="stopButtonPressed:" destination="BYZ-38-t0r" id="mAd-Ko-kzv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ejc-Kp-7ri"/>
+                                    <barButtonItem title="recordButton" image="record" id="5i0-2p-yRA">
+                                        <connections>
+                                            <action selector="recordButtonPressed:" destination="BYZ-38-t0r" id="h40-Ce-INw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Mje-WY-BLm"/>
+                                    <barButtonItem title="playPauseButton" image="play" id="es9-fb-RtM">
+                                        <connections>
+                                            <action selector="playAndPauseButtonPressed:" destination="BYZ-38-t0r" id="YpU-VE-k2y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LrP-Xh-VAS"/>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9YH-YM-Rai">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem title="Profiles" id="0Cg-bd-VMj"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9YH-YM-Rai" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B4L-BJ-ht7"/>
+                            <constraint firstItem="9YH-YM-Rai" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C1f-XL-vws"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EWC-ui-6lv" secondAttribute="bottom" id="Sdp-mw-oOY"/>
+                            <constraint firstItem="EWC-ui-6lv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Slz-0w-Oan"/>
+                            <constraint firstItem="9YH-YM-Rai" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YDQ-nD-FTy"/>
+                            <constraint firstItem="EWC-ui-6lv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fA0-CU-gQG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="playAndPauseButton" destination="es9-fb-RtM" id="FX9-wU-Bc7"/>
+                        <outlet property="recordButton" destination="5i0-2p-yRA" id="7Ef-6N-yTB"/>
+                        <outlet property="stopButton" destination="S0y-gs-kis" id="XLS-n0-MkL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="100"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play" width="23" height="24"/>
+        <image name="record" width="24" height="24"/>
+        <image name="stop" width="22" height="22"/>
+    </resources>
+</document>
